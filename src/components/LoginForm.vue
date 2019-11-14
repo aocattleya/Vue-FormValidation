@@ -43,7 +43,7 @@ export default {
 
       if (LoginId == true) {
         this.Validation.loginReult = "";
-        alert("Hello," + this.loginForm.loginId + "!");
+        swal("Hello," + this.loginForm.loginId + "!");
       }
       event.preventDefault();
     },
